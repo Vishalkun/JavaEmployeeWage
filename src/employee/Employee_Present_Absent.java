@@ -7,7 +7,7 @@ public class Employee_Present_Absent {
 	public static void main(String[] args) {
 		int IS_FULL_TIME = 1;
         Random R=new Random();  
-        int empcheck= new Random().nextInt(2);
+        int empcheck= new Random().nextInt(0,2);
         if(empcheck== IS_FULL_TIME)
         {
         	System.out.println(" Employee is Present");
